@@ -10,6 +10,7 @@ import (
 //Client Hit Type
 type Client struct {
 	//Use TLS when Send()ing
+	Debug                               bool
 	UseTLS                              bool
 	HttpClient                          *http.Client
 	protocolVersion                     string
